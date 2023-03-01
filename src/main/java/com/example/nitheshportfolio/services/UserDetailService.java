@@ -1,5 +1,7 @@
 package com.example.nitheshportfolio.services;
 
-public class UserDetailService {
+import com.example.nitheshportfolio.models.DynamicProfileResponseObject;
 
+public class UserDetailService {
+    DynamicProfileResponseObject
 }

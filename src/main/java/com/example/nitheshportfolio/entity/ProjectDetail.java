@@ -1,6 +1,6 @@
-package com.example.nitheshportfolio.models;
+package com.example.nitheshportfolio.entity;
 
-public class ProjectDetailModel {
+public class ProjectDetail {
     private String projectname;
     private String projectdesc;
 
@@ -25,7 +25,7 @@ public class ProjectDetailModel {
 
     @Override
     public String toString() {
-        return "ProjectDetailModel{" +
+        return "ProjectDetail{" +
                 "projectname='" + projectname + '\'' +
                 ", projectdesc='" + projectdesc + '\'' +
                 '}';

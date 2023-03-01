@@ -1,6 +1,6 @@
-package com.example.nitheshportfolio.models;
+package com.example.nitheshportfolio.entity;
 
-public class ExperienceDetailModel {
+public class ExperienceDetail {
     private int from;
     private int to;
     private String companyname;
@@ -43,7 +43,7 @@ public class ExperienceDetailModel {
 
     @Override
     public String toString() {
-        return "ExperienceDetailModel{" +
+        return "ExperienceDetail{" +
                 "from=" + from +
                 ", to=" + to +
                 ", companyname='" + companyname + '\'' +

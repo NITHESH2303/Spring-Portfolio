@@ -1,0 +1,2 @@
+Roles role) -> new SimpleGrantedAuthority(role.toString())
+    -->> not giving full access and allow access for only specific things

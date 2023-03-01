@@ -5,7 +5,7 @@ public class UserDetailsModel {
     private String description;
     private AuthDetailModel authDetailModel;
     private SocialMediaDetailsModel socialMediaDetailsModel;
-    private List<ServiceDetailModel> serviceDetailModels;
+//    private List<ServiceDetailModel> serviceDetailModels;
     private List<ProjectDetailModel> projectDetailModels;
     private List<ExperienceDetailModel> experienceDetailModels;
     private List<Roles> roles;
@@ -42,13 +42,13 @@ public class UserDetailsModel {
         this.socialMediaDetailsModel = socialMediaDetailsModel;
     }
 
-    public List<ServiceDetailModel> getServiceDetailModels() {
-        return serviceDetailModels;
-    }
+//    public List<ServiceDetailModel> getServiceDetailModels() {
+//        return serviceDetailModels;
+//    }
 
-    public void setServiceDetailModels(List<ServiceDetailModel> serviceDetailModels) {
-        this.serviceDetailModels = serviceDetailModels;
-    }
+//    public void setServiceDetailModels(List<ServiceDetailModel> serviceDetailModels) {
+//        this.serviceDetailModels = serviceDetailModels;
+//    }
 
     public List<ProjectDetailModel> getProjectDetailModels() {
         return projectDetailModels;
@@ -76,5 +76,18 @@ public class UserDetailsModel {
 
     public UserDetailsModel(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "UserDetailsModel{" +
+                "id=" + id +
+                ", description='" + description + '\'' +
+                ", authDetailModel=" + authDetailModel +
+                ", socialMediaDetailsModel=" + socialMediaDetailsModel +
+                ", projectDetailModels=" + projectDetailModels +
+                ", experienceDetailModels=" + experienceDetailModels +
+                ", roles=" + roles +
+                '}';
     }
 }

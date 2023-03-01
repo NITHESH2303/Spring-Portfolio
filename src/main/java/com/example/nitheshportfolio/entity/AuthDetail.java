@@ -1,8 +1,8 @@
-package com.example.nitheshportfolio.models;
+package com.example.nitheshportfolio.entity;
 
-public class AuthDetailModel {
+public class AuthDetail {
     private String email;
-    private String username;
+    private  String username;
     private String password;
     private String fname;
     private String lname;
@@ -47,13 +47,9 @@ public class AuthDetailModel {
         this.lname = lname;
     }
 
-    public AuthDetail(){
-        
-    }
-
     @Override
     public String toString() {
-        return "AuthDetailModel{" +
+        return "AuthDetail{" +
                 "email='" + email + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +

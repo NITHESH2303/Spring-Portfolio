@@ -1,6 +1,6 @@
-package com.example.nitheshportfolio.models;
+package com.example.nitheshportfolio.entity;
 
-public class SocialMediaDetailsModel {
+public class SocialMediaDetails {
     private String twitterUrl;
     private String leetcodeUrl;
     private String githubUrl;
@@ -28,13 +28,13 @@ public class SocialMediaDetailsModel {
     public void setGithubUrl(String githubUrl) {
         this.githubUrl = githubUrl;
     }
-    public SocialMediaDetailsModel(){
+    public SocialMediaDetails(){
 
     }
 
     @Override
     public String toString() {
-        return "SocialMediaDetailsModel{" +
+        return "SocialMediaDetails{" +
                 "twitterUrl='" + twitterUrl + '\'' +
                 ", leetcodeUrl='" + leetcodeUrl + '\'' +
                 ", githubUrl='" + githubUrl + '\'' +

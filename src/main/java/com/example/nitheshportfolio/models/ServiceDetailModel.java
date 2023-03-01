@@ -22,4 +22,12 @@ public class ServiceDetailModel {
     public ServiceDetailModel(){
 
     }
+
+    @Override
+    public String toString() {
+        return "ServiceDetailModel{" +
+                "ServiceName='" + ServiceName + '\'' +
+                ", ServiceDescription='" + ServiceDescription + '\'' +
+                '}';
+    }
 }
